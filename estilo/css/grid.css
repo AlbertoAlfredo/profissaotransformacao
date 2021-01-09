@@ -1,0 +1,12 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto 2rem auto;
+}
+
+.grid-esquerda {
+    left: 0px;
+}
+
+.grid-direita {
+    right: 0px;
+}

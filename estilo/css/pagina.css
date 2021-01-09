@@ -1,0 +1,61 @@
+.artigo{
+    min-height: 30rem;
+    margin-bottom: 15rem;
+}
+.artigo-imagem{
+    max-width: 100%;
+}
+
+.parceiro-imagem{
+    max-width: 70%;
+}
+
+.artigo h1, .artigo h2 {
+    text-align: center;
+}
+
+.border {
+    width: 100px;
+    height: 3px;
+    background: #201f1f;
+    margin: 40px auto;
+    border: 1px solid #dee2e6;
+}
+
+.atendimentos{
+    background-color: rgba(0, 0, 0, 0.185);
+    padding-top: 7rem;
+    border-radius: 10px;
+}
+
+.titulo-2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+@media (max-width: 600px){
+    .container- {
+        background-color: #fff;
+        min-height: 100%;
+        width: 100%;
+        padding: 0px;
+    }
+    
+    .artigo {
+        min-height: 100%;
+        width: 98%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    
+    .artigo > h2 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    
+    .grid {
+        display: block;
+    }
+}

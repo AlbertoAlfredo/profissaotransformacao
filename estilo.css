@@ -1,0 +1,18 @@
+html, body{
+    scroll-behavior: smooth;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.parceiros {
+    background-color: rgba(40, 0, 116, 0.281);
+    border-radius: 10px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}

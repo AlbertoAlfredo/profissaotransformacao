@@ -1,0 +1,26 @@
+.rodape {
+    background-color: rgb(40, 0, 77);
+    margin-bottom: 0px;
+    bottom: 0px;
+    min-height: 30rem;
+    position: relative;
+}
+.artigo-footer{
+    min-height: 30rem;
+    margin-bottom: 0px;
+    padding-top: 5rem;
+}
+
+.artigo-footer h2, .artigo-footer h3, .artigo-footer p, .artigo-footer li {
+    color: #fff;
+}
+
+.barra-icone{
+    display: flex;
+    justify-content: center;
+}
+.icone {
+    width: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
