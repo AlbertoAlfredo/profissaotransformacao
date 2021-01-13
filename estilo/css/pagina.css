@@ -35,6 +35,16 @@
     margin-bottom: 4rem;
 }
 
+.separador{
+    width: 5rem;
+    height: 5rem;
+}
+
+.youtube-video {
+    width: 550px; 
+    height: 334px;
+}
+
 @media (max-width: 600px){
     .container- {
         background-color: #fff;
@@ -52,10 +62,16 @@
     
     .artigo > h2 {
         text-align: center;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
-    
+    .titulo-2 {
+        font-size: 2rem;
+    }
     .grid {
         display: block;
+    }
+    .youtube-video {
+        width: 300px; 
+        height: 187px;
     }
 }

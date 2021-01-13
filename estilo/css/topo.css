@@ -21,3 +21,21 @@
   width: 7rem;
   height: 7rem;
 }
+
+@media (max-width: 600px){
+  .topo {
+    max-width: 100%;
+    min-height: 20rem;
+    background-image: url("../imagens/Novo-Projeto-6-scaled.jpeg");
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+  }
+  .menu-logo{
+    max-width: 60px;
+    max-height: 60px;
+  }
+  .navbar-brand {
+    font-size: 1rem;
+  }
+}
