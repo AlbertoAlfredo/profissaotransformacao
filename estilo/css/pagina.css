@@ -8,8 +8,15 @@
 
 .parceiro-imagem{
     max-width: 70%;
+    margin: auto;
 }
-
+.roberto{
+    max-width: 40%;
+    margin: auto;
+}
+.centralizar-roberto{
+    display: block;
+}
 .artigo h1, .artigo h2 {
     text-align: center;
 }
@@ -73,5 +80,8 @@
     .youtube-video {
         width: 300px; 
         height: 187px;
+    }
+    .roberto{
+        max-width: 80%;
     }
 }
