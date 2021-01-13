@@ -38,4 +38,7 @@
   .navbar-brand {
     font-size: 1rem;
   }
+  .nav-link{
+    background-color: black;
+  }
 }
