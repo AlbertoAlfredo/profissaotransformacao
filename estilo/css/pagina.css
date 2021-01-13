@@ -67,7 +67,7 @@
         min-height: 100%;
         width: 98%;
         margin-top: 100px;
-        margin-bottom: 50px;
+        padding-bottom: 50px;
     }
     
     .artigo > h2 {

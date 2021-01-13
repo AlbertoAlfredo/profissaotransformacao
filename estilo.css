@@ -3,6 +3,8 @@ html, body{
     padding-bottom: 0px;
     margin-bottom: 0px;
     background-color: rgba(13, 49, 253, 0.171);
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 .container-fluid {
