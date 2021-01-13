@@ -1,6 +1,9 @@
+.materiais {
+    background-color: rgba(70, 0, 117, 0.363);
+}
 .artigo{
     min-height: 30rem;
-    margin-bottom: 15rem;
+    padding-bottom: 15rem;
 }
 .artigo-imagem{
     max-width: 100%;

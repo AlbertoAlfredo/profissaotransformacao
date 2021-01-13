@@ -2,6 +2,7 @@ html, body{
     scroll-behavior: smooth;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    background-color: rgba(13, 49, 253, 0.171);
 }
 
 .container-fluid {
@@ -19,4 +20,8 @@ html, body{
 
 .centralizar {
     text-align: center;
+}
+
+p {
+    font-size: 20px;
 }
