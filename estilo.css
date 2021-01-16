@@ -27,3 +27,16 @@ html, body{
 p, li {
     font-size: 20px;
 }
+
+.cursos{
+    background-color: black;
+}
+.autodefesa{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.link-sem-estilo, .link-sem-estilo:hover, .link-sem-estilo:link{
+    text-decoration:none; 
+    color: #000;
+}
