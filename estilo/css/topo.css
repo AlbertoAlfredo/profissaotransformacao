@@ -16,7 +16,7 @@
   top: 0px;
   max-width: 100%;
   min-height: 70rem;
-  background-image: url("../imagens/Novo-Projeto-6-scaled.jpeg");
+  background-image: url("../imagens/SITE.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -28,10 +28,8 @@
 
 @media (max-width: 600px){
   .topo {
-    max-width: 100%;
+    min-width: 100%;
     min-height: 20rem;
-    background-image: url("../imagens/Novo-Projeto-6-scaled.jpeg");
-    background-repeat: no-repeat;
     background-size: 50rem;
     background-position: center;
   }
