@@ -4,9 +4,9 @@ window.onscroll = function () { scrollFunction() };
 function scrollFunction() {
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
     document.getElementsByClassName("nav")[0].style.backgroundColor = "black";
-    document.getElementsByClassName("menu-esconder")[0].style.display = "flex";
+    document.getElementsByClassName("nav")[0].style.display = "flex";
   } else {
     document.getElementsByClassName("nav")[0].style.backgroundColor = "transparent";
-    document.getElementsByClassName("menu-esconder")[0].style.display = "none";
+    document.getElementsByClassName("nav")[0].style.display = "none";
   }
 }

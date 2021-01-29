@@ -1,0 +1,11 @@
+CACHE MANIFEST
+# v1 2021-01-21
+# arquivo de cache para organizar e deixar o site mais rápido
+index.html
+estilo-v1.css
+import-v1.css
+autodefesa.html
+ReikiHermetista.html
+/css
+/imagens
+/js
