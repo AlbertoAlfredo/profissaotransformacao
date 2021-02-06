@@ -216,7 +216,7 @@
                         </a>
                         <button class="btn btn-primary" id="show-precos" @click="showPrecos = !showPrecos">Veja os valores</button>
                         <div v-if="showPrecos">
-                            <img class="img-precos" src="static/precosroberto.jpeg" alt="">
+                            <img class="img-fluid img-precos " src="static/precosroberto.jpeg" alt="">
                         </div>
                     </div>
                 </div>
@@ -361,6 +361,7 @@
 <style>
     .img-precos{
         margin: 20px;
+        max-width: 80%;
     }
 </style>
 
