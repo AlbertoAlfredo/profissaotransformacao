@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./import-v1.css">
     <link rel="stylesheet" href="./estilo-v1.css">
     <title>Profissão Transformação</title>
+
 </head>
 
 <body class="container-fluid">
@@ -30,7 +31,13 @@
         </nav>
 
     </header>
-    <section class="container">
+
+
+    
+
+
+    <main>
+    <section  class="container">
         <article class="artigo">
             <h1>Profissão Transformação</h1>
             <div class="border"></div>
@@ -173,7 +180,19 @@
 
     </section>
 
-    <section class="container-fluid parceiros">
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="app" class="container-fluid parceiros">
         <div class="container">
             <article class="artigo">
                 <h2>ATENDIMENTOS</h2>
@@ -189,12 +208,16 @@
                                 Cromoterapeuta<br />
                                 Numerólogo<br />
                                 Conselheiro Energético<br />
-                                Tarot Terapêutico<br/>
+                                Tarot Terapêutico<br />
                             </p>
                             <div class="card-body">
-                                <btn class="btn btn-primary">Marque um atendimento</btn>
+                                <button class="btn btn-primary">Marque um atendimento</button>
                             </div>
                         </a>
+                        <button class="btn btn-primary" id="show-precos" @click="showPrecos = !showPrecos">Veja os valores</button>
+                        <div v-if="showPrecos">
+                            <img class="img-precos" src="static/precosroberto.jpeg" alt="">
+                        </div>
                     </div>
                 </div>
                 <div class="separador"></div>
@@ -209,7 +232,7 @@
                                     Iniciado Ogom<br />
                                 </p>
                                 <div class="card-body">
-                                    <btn class="btn btn-primary">Marque um atendimento</btn>
+                                    <button class="btn btn-primary">Marque um atendimento</button>
                                 </div>
                             </a>
                         </div>
@@ -225,7 +248,7 @@
                                     Terapeuta Reiki<br />
                                 </p>
                                 <div class="card-body">
-                                    <btn class="btn btn-primary">Marque um atendimento</btn>
+                                    <button class="btn btn-primary">Marque um atendimento</button>
                                 </div>
                             </a>
                         </div>
@@ -237,20 +260,20 @@
                         <a href="https://web.whatsapp.com/send?phone=5524988045824">
                             <img src="./estilo/imagens/sueli.jpg" class="card-img-top" alt="Sueli">
                             <p>
-                                Cromoterapia<br/>
-                                Shiatsu<br/>
-                                Massoterapia<br/>
-                                Reflexologia<br/>
-                                Bambuterapia<br/>
-                                Pedras quentes<br/>
-                                Drenagem linfática<br/>
-                                Esfoliação com hidratação<br/>
-                                Moxabustão<br/>
-                                Florais de Bach<br/>
-                                Reiki<br/>
+                                Cromoterapia<br />
+                                Shiatsu<br />
+                                Massoterapia<br />
+                                Reflexologia<br />
+                                Bambuterapia<br />
+                                Pedras quentes<br />
+                                Drenagem linfática<br />
+                                Esfoliação com hidratação<br />
+                                Moxabustão<br />
+                                Florais de Bach<br />
+                                Reiki<br />
                             </p>
                             <div class="card-body">
-                                <btn class="btn btn-primary">Marque um atendimento</btn>
+                                <button class="btn btn-primary">Marque um atendimento</button>
                             </div>
                         </a>
                     </div>
@@ -291,6 +314,16 @@
 
         </article>
     </section>
+
+
+
+
+
+
+
+
+
+    </main>
     <footer class="container-fluid rodape">
         <div class="container">
             <article class="artigo artigo-footer">
@@ -315,5 +348,20 @@
     <script src="./estilo/js/bootstrap.min.js"></script>
     <script src="./estilo/js/nav-v1.js"></script>
 </body>
+
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <script>
+        new Vue({
+        el: "#app",
+        data: {
+            showPrecos: false,
+        }
+        });
+    </script>
+<style>
+    .img-precos{
+        margin: 20px;
+    }
+</style>
 
 </html>
